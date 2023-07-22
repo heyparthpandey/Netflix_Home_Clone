@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    background: black;
+    color: #fff;
+    font-family: 'Roboto, sans-serif';
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/IMG_1912.JPG);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    
+}
+.logo{
+    height: 120px;
+    width: 250px;
+    margin-left: -70px;
+    cursor: pointer;
+    
+    
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px 10px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 10px;
+    
+    cursor: pointer;
+    
+}
+.signin:hover{
+    color: red;
+    background: white;
+}
+
+/* nav button:hover{
+    color:black ;
+} */
+p:hover{
+    color:#db0001;
+}
+
+.down{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    
+}
+.down img{
+    width:10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    padding-bottom: 30px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom:20px;
+
+
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items:center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 14px;
+
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;}
+
+/* features*/
+
+    .features{
+        padding: 50px 12%;
+        font-size: 22px;
+    }
+    .row{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 100px;
+        
+
+    }
+    .text-col
+    {
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .vid-col{
+
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .vid-col video{
+        margin-left:20px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        
+
+    }
+    .img-col{
+
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .img-col img{
+
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+  .features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  img{
+    overflow-clip-margin: content-box;
+    
+  }
+
+.stranger-img{
+    overflow: hidden;
+    position: absolute;
+    left: 31%;
+    transform: translateX(-50%);
+    margin: auto;
+    background: rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    min-width: 15rem;
+    border: 1px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.5em;
+    z-index: 1;
+    margin-top: -6%;
+    align-self: center;
+    width: fit-content;
+    padding: 45px 100px;
+}
+.strng1{
+    position: absolute;
+    align-items: left;
+    margin-top: -10%;
+    margin-left: -10%;
+    
+    font-size: 60%;
+
+}
+.stranger-img-sub{
+    position: absolute;
+    margin-left: -35%;
+    margin-top: 10%;
+}
+.strng2{
+    position: absolute;
+    align-items: left;
+    margin-top: -1%;
+    margin-left: -9%;
+    font-size: 50%;
+    color: blue;
+
+}
+.strng-gif{
+    width:1px;
+    height: 0.9px;
+    margin-top: -201%;
+    margin-left: 125%;
+
+}
+
+.video1{
+    z-index: -1;
+    overflow: hidden;
+    width: 85%;
+    height: 100%;
+    max-width: 23%;
+    max-height: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 130%;
+    margin-left: 19%;
+    /* bottom: 35%; */
+
+}
+  /*faq*/
+  
