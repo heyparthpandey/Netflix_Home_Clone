@@ -236,22 +236,23 @@ p:hover{
 }
 
 .video1{
-    z-index: -1;
-    overflow: hidden;
-    width: 85%;
-    height: 100%;
-    max-width: 23%;
-    max-height: 30%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin-top: 130%;
-    margin-left: 19%;
-    /* bottom: 35%; */
+     z-index: -1;
+  overflow: hidden;
+  width: 62%;
+  height: 100%;
+  max-width: 69%;
+  max-height: 30%;
+  position: relative;
+  top: -70%;
+  left: 31%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 130%;
+  margin-left: 19%;
+/*   bottom: 35%; */
+}
 
 }
   /*faq*/
